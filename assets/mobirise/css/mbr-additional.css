@@ -2675,6 +2675,10 @@ a {
 .cid-sgPeUW3XN8 .row {
   justify-content: center;
 }
+.cid-sgPeUW3XN8 .card-title,
+.cid-sgPeUW3XN8 .iconfont-wrapper {
+  text-align: center;
+}
 .cid-sgPFR1Q2P1 {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -2937,7 +2941,7 @@ a {
   text-align: center;
 }
 .cid-sgPhosihBV {
-  padding-top: 0rem;
+  padding-top: 2rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
