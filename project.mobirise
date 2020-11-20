@@ -36,7 +36,7 @@
     "siteFonts": [],
     "publishChangesOnly": true,
     "imageResize": true,
-    "favicon": false,
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-128x128.png",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
