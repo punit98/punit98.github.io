@@ -55,7 +55,8 @@
       "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
     },
     "uniqCompNum": 28,
-    "versionPublish": "5.2.0"
+    "versionPublish": "5.2.0",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "designs.html": {
