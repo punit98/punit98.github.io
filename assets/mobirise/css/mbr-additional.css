@@ -1046,7 +1046,7 @@ a {
   background-color: #ffffff;
 }
 .cid-sgPhU6RU8x {
-  padding-top: 6rem;
+  padding-top: 2rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
@@ -1158,6 +1158,9 @@ a {
   .cid-sp86ZlIlYE .text-wrapper {
     padding: 2rem;
   }
+}
+.cid-sp86ZlIlYE .mbr-text {
+  text-align: left;
 }
 .cid-sp8citshXZ {
   padding-top: 6rem;
@@ -1303,7 +1306,7 @@ a {
 .cid-sgPhJgiAmt {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #ffffff;
+  background-color: #d3d3d3;
 }
 @media (max-width: 991px) {
   .cid-sgPhJgiAmt .image-wrapper {
