@@ -1387,6 +1387,11 @@ a {
 .cid-sgPf5E0KTZ .media-container-row .row-copirayt p {
   width: 100%;
 }
+.cid-sqyOcFvc4t {
+  padding-top: 4rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
 .cid-sgPeFfUBog {
   z-index: 1000;
   width: 100%;
@@ -3233,6 +3238,107 @@ a {
     width: 175%;
     max-width: calc(100% + 2rem);
     left: -1rem;
+  }
+}
+.cid-sqyOgUw0DW {
+  padding-top: 4rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-sqystreSEq {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sqystreSEq .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sqystreSEq img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-sqystreSEq .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-sqystU0VgC {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sqystU0VgC .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sqystU0VgC .row {
+  flex-direction: row-reverse;
+}
+.cid-sqystU0VgC img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-sqystU0VgC .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-sqysutF9N5 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sqysutF9N5 .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sqysutF9N5 img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-sqysutF9N5 .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-sqysuU8hs3 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sqysuU8hs3 .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sqysuU8hs3 .row {
+  flex-direction: row-reverse;
+}
+.cid-sqysuU8hs3 img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-sqysuU8hs3 .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-sqysvqOaXt {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sqysvqOaXt .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sqysvqOaXt img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-sqysvqOaXt .text-wrapper {
+    padding: 2rem;
   }
 }
 .cid-sgPf5E0KTZ {
