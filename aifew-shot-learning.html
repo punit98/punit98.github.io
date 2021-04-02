@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <!-- Site made with Mobirise Website Builder v5.3.0, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.3.0, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/favicon-128x128.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Punit Singh - Few Shot Learning Blog Post</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/web/assets/gdpr-plugin/gdpr-styles.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+  
+</head>
+<body>
+  
+  <section class="menu menu3 cid-sgPeFfUBog" once="menu" id="menu3-1l">
+    
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="index.html">
+                        <img src="assets/images/icon-96x127.png" alt="Home" style="height: 3rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-black text-primary display-7" href="index.html">Punit Singh</a></span>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <div class="icons-menu">
+                    <a class="iconfont-wrapper" href="https://dribbble.com/Fab13" target="_blank">
+                        <span class="p-2 mbr-iconfont socicon-dribbble socicon" style="font-size: 25px;"></span>
+                    </a>
+                    
+                        <a href="http://github.com/punit98" target="_blank"><span class="p-2 mbr-iconfont mobi-mbri-github mobi-mbri" style="color: rgb(0, 0, 0); fill: rgb(0, 0, 0); font-size: 25px;"></span></a>
+                    
+                    
+                    
+                </div>
+                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-black display-4" href="assets/files/Punit-Singh-Resume.pdf">Download CV</a></div>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section class="content4 cid-stqDIqlmfl" id="content4-1n">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-10">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Few shot adversarial learning of Realistic Neural Talking Head Models</strong></h3>
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5">Explaination, Implementations and Discussion</h4>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content5 cid-stqDXDPteS" id="content5-1o">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-10">
+                
+                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">
+                    Enter your subtitle here
+                </h4>
+                <p class="mbr-text mbr-fonts-style display-7">When MyHeritage.com announced the release of Deep Nostalgia, a tool to animate faces from still photos, it received an overwhelming response from people. The website reported that over 1 million photos were animated in the first 48 hours alone and was reaching 3 million on the third day (source). The world was going gaga over this and honestly, rightly so. It is only natural for a human to grab any chance they have at seeing their lost loved ones living again and when I found out about this tool while scrolling through my reddit feed, I also did not hesitate to jump on the bandwagon. Here is an example of a photo animated using Deep Nostalgia:<br><br>example of Deep Nostalgia Another example<br><br>I tried this tool on a photo of my grandfather who passed in the year 2003 and there he was, moving, looking around, smiling almost naturally. I showed my mother the animation on her birthday a few days later and I could see first-hand what the people meant in the reviews they gave this tool. Being a student of Artificial Intelligence, I couldn't help but wonder how this tool worked so I started looking for the tech behind it. It led me to the company that developed it: D-ID. D-ID is a company which started with anonymization of facial featuress in photos using AI and went on to develop Talking Heads and the Live Portrait which are a part of its reenactment suite.<br><br>Now, obviously the tech is proprietary so I could not find much details but I came across a similar paper from researchers at the Samsung AI center, Moscow. This blog post is going to be about this paper from the samsung AI lab: Few-Shot Adversarial Learning of Realistic Neural Talking Head Models.<br><br>Feeling overwhelmed by the title of the paper? I was too. Let's change that.<br>Overview<br><br>The researchers at the Samsing AI lab developed a GAN (Generativce Adversarial Network) to make realistic talking heads from photos of people with as few learning shots as possible. The model works by taking a source image and a target video/image and extracts the landmarks from the target image and applyting them to the source image, animating the source image into a talking head image. So, when applied, the implementation looks something like:<br><br>Driver video / Training video:<br>driver image<br><br>Extracted landmarks:<br>landmarks gif<br><br>Now the extracted landmarks were applied to this set of images:<br>trainign shots<br>so the resulting animated talking head came out to be:<br>result<br><br>Compare the source, the landmarks and the result:<br>driver image landmarks gif result<br><br>BUT HOWWWW??<br>Underlying concepts<br>1. GAN - Generative Adversarial Network<br><br>The underlying principle of such systems in the recent times has been GAN's, or Generative Adversarial Networks. GAN's are, in simple words, recent machine learning frameworks developed by Ian J. Goodfellow et. al. in 2014 which can generate new data that is similar to the trainng data but also quite different different at the same time. Nvidia Corp. recently made a GAN which generated human faces that do not exist in real life. The implementation can be seen on www.thispersondoesnotexist.com. Every time you reload this page, a new face appears which belongs to nobody. A creepy choice of words, I know, but interesting nonetheless. Surprisingly, these GAN's have somehow overcome the Uncanny Valley Effecy and look real.<br><br>GAN's have two parts:<br><br>    A Generator<br>    A Discriminator<br><br>An informal definition of generators would be a "model that can use the training data and use that to genenrate new data" and it has to do it as effectively as possible, and informally, a discriminator would be a "model that has to differentiate between the original data and the generated data and provide feedback to the generator".<br><br>In even simpler words, it's like a game of hide-and-seek; the generator has to generate new data and try to fool the discriminator, while the discriminator has to try its best to not be fooled by the data generated by the generator.<br><br>Mathematically,<br><br>    Generators have to calculate the joint probability, that is, P(a, b, c, ...) if there are multiple labels or P(x) if there is only one label<br><br>whereas<br><br>    Discriminators have to calculate only the conditional probability, that is, P(a | b).<br><br>2. Embedder<br><br>In the paper, an embedder network is also used in the meta learning stage. An embedder network outputs the embedding vectors wich are then fed into the generator and help in creating new data. The equation for generating embedding vectors is:<br>Image<br><br>where Image is the embedding vector, that is being calculated by taking an average of the ouptut of the E(x) output. K is the number of episodes in K-shot learning. For few shot learning, the value of K is low. Here i is a randomly chosen video from the training set and t is a randomly chosen frame from the selected training video. The network parameters that are learned during this meta-learning stage are stored in Image.<br><br>In english, an embedder network is used to extract information from training videos and the landmarks and feed the learned parameters (phi) from the training videos to the Generator network.<br>Okaayyyy.. go off, I guess?<br>I have the general idea now but what about it? how is everything implemented??<br>1. Generator<br><br>In the previous step, we got the embedding vector, which will be fed into the generator network.<br><br>The Generator takes the landmark image of a different frame, the embedding vector from the embedder network and a video frame. The output is a new frame genrated by the Generator. The generator is represented as:<br>Image<br><br>where<br>Image is the landmark image,<br>Image is the embedding vector,<br>Image are the person-generic parameters that are learnt during meta-learning itself and<br>Image are the person-specific parameters trained from the embedding vectors.<br>The output is Image which is a synthesized video frame.<br><br>Once we have the synthesized output video, it is then sent to the discriminator to predict whether it is a real image or a synthesized video.<br>2. Discriminator<br><br>The discriminator, used to differentiate between real and fake outputs form the generator, takes an input frame from video sequence either from the generator output or from the training dataset, the index of the video from which the frame is taken. The output is r, a.k.a realism score which is a single scalar value indicating how much the discriminator "thinks" that the frame is real. Yes, i really made that pun.<br><br>representation of a discriminator is:<br>Image<br><br>where,<br>Image is the video frame,<br>Image is the landmark image,<br>Image is the index of the video sequence in the dataset and<br>Image represent the learnable parameters of the discriminator network.<br>This whole process is done by calculating a content distance term: Image<br>Fine tuning<br><br>After this meta-learning process completes on the training data, the system can start creating video sequences from the unseen images. For that we use<br>Image<br><br>here the value of Image is reused from the meta-learning stage.<br>Implementations<br>I will not bore you anymore and move straight to the implementation(s)<br><br>Before I started trying out my own implementation, I scoured PapersWithCode to see if I could find some implementations for this paper by other people and I can happily say that I actually did. I found 8 implementations. some of them really promising. Among the 8 implementations, I found 3 worth discussing. You can check the other ones out if you want, but for this blog, I'll be focussing only on these three.<br><br>    Realistic-Neural-Talking-Head-Models by vincent-thevenin<br>    talking-heads by grey-eye<br>    Few-Shot-Adversarial-Learning by shoutOutYangJie<br><br>After going through these, I did not think that me implementing my own code would be necessary because these implementations cover almost everything along with a few interesting findings which I will discuss later on in this blog. Also, my machine would not be able to handle the resource requirements of this paper and by the time you are reading this blog, it would still be in training.<br>Prerequisites and Dependencies<br><br>Before you go on to try out your own code or run any one of these, there are a few dependencies that you need to install.<br><br>    VGGFace - A very Deep convolutional Neural Network architecture:<br>        Follow the following steps to install VGGface:<br><br>                wget http://www.robots.ox.ac.uk/~vgg/software/vgg_face/src/vgg_face_caffe.tar.gz<br><br>                tar xvzf vgg_face_caffe.tar.gz<br><br>                sudo apt install caffe-cuda<br><br>                pip install mmdnn<br><br>                for python3 run:<br>                python3 -m pip install mmdnn<br><br>    Libraries: Install the folllowing libraries:<br>        face-alignment<br><br>            python3 -m pip install face-alignment<br><br>        torch<br><br>            python3 -m pip install torch<br><br>        numpy<br><br>            python3 -m pip install numpy<br><br>        cv2<br><br>            python3 -m pip install opencv-python<br><br>        matplotlib<br><br>            python3 -m pip install matplotlib<br><br>        tqdm<br><br>            python3 -m pip install tqdm<br><br>3. Dataset<br><br>The model in the paper was trained on the VoxCeleb2 Dataset. The dataset is about 300GB in size and contains about 140,000 videos of talking heads.<br>vincent-thevenin's implementation:<br><br>This implementation of the paper has been the best so far in my opinion. The dataset is included in the github repo and they have also provided pretrained weights<br><br>There are separate files for differnt implementations depending onwhat you want to do:<br><br>There is a train.py file which you can run to train the model yourself.<br><br>Then there is a embedder_inference.py file which needs a trained model (either the pretrained modelor the one you train yourself). This file gives you the embedding vector as the output.<br><br>The fine_tuning_training.py file is used to further fine tune the trained model. (Requires the pre trained model and the embedding vector)<br><br>If you want to try this model using your webcam, you can run the webcam_inference.py file.<br><br>The architecture they used has also been very well explained in the readme.md file on the github repo.<br>grey-eye's implementation<br><br>This implementation has the best documentation so far. and there is also a .sh file to download VGGFace. You can download all the dependencies of this implementation from the requirements.txt file. All you need to do is run the following command in your terminal:<br><br>    python3 -m pip install -r requirements.txt<br><br>grey-eye notes that in the original paper, they seem to process the videos dynamically, that is, with each iteration they select a new video. Although this has not been explicitly stated in the paper, it is also not said that they do it otherwise. Following this approach would be extremely time consuming because with each iteration you would have to pre-process the videos. This implementation gives a workaround for that (sort of) by preprocessing all the data beforehand. This gives a resulting dataset which is a lot lighter than the original dataset and easier to work with.<br><br>The architecture details can again be found in the readme.md file on the github repo<br>shoutOutYangJie's implementation<br><br>This implementation works on the VoxCeleb1 Dataset which is only 36GB in size. The most interesting thing I found about this implementation is that you can see the real-time training results in the training visual directory. By using this visual implementation, shoutOutYangJie found out some problems in the Generator architecture.<br><br>This implementation is the easiest to run and try<br><br>    Download the dataset and run the get_landmarks.py file.<br>    Run the VggFace after download<br>    Run the train.py file using<br><br>        python ./train.py<br><br>Conclusion<br><br>You can try any of these implementations or you can try out your own implementation or do both and compare the results. All in all, this is a really interesting paper and the implementations are even more interesting. I learnt a great deal while reading for this blog and I hope you also learnt something after reading this blog.<br></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer3 cid-sgPf5E0KTZ" once="footers" id="footer3-1m">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            
+            <div class="row social-row">
+                <div class="social-list align-right pb-2">
+                    
+                    
+                    
+                    
+                    
+                    
+                <div class="soc-item">
+                        <a href="http://github.com/punit98" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social mobi-mbri-github mobi-mbri"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.dribbble.com/Fab13" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-dribbble socicon"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="http://instagram.com/f_ab13" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"></span>
+                        </a>
+                    </div></div>
+            </div>
+            <div class="row row-copirayt">
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">Punit Singh<br>Email: punit98@protonmail.com<br>Birmingham, United Kingdom</p>
+            </div>
+        </div>
+    </div>
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/l" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Designed with <a href="https://mobirise.site/a" style="color:#aaa;">Mobirise</a></p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  
+  
+</body>
+</html>
