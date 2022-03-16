@@ -4801,6 +4801,37 @@ a {
     left: -1rem;
   }
 }
+.cid-t0ctQ0JKkH {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #ffffff;
+}
+.cid-t0ctQ0JKkH .card-box {
+  z-index: 10;
+  position: relative;
+}
+@media (min-width: 1500px) {
+  .cid-t0ctQ0JKkH .container {
+    max-width: 1400px;
+  }
+}
+.cid-t0ctQ0JKkH .card {
+  margin: auto;
+}
+.cid-t0ctQ0JKkH .mbr-iconfont {
+  display: block;
+  font-size: 5rem;
+  color: #6592e6;
+  margin-bottom: 2rem;
+}
+.cid-t0ctQ0JKkH .card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cid-t0ctQ0JKkH .row {
+  justify-content: center;
+}
 .cid-sgPf5E0KTZ {
   padding-top: 2rem;
   padding-bottom: 2rem;
